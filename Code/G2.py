@@ -70,12 +70,10 @@ saxb = xab
 sbsaxb = xa2b
 sasbsaxb = xa2b
 sbsasbsaxb = xab
-sasbsasbsaxb = xb
 sbxa = xa3b
 sasbxa = x2a3b
 sbsasbxa = x2a3b
 sasbsasbxa = xa3b
-sbsasbsasb = xa
 #The ka and kb in Xa^2=kaXa and Xb^2=kbXb
 ka = -a11
 kb = -a11
