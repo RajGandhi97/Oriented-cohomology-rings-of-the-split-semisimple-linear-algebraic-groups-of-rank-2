@@ -40,7 +40,7 @@ x_negb = poly(-xb-c2*(xb**2)-c3*(xb**3)-c4*(xb**4),xa,xb)
 xaa = poly(2*xa+a11*(xa**2)+2*a12*(xa**3)+2*a13*(xa**4)+a22*(xa**4),xa,xb)
 #This is x_{a+b} expaneded as a series xa+_Fx_b truncated to degree 4
 xab = poly(xa+xb+a11*xa*xb+a12*((xa**2)*xb+xa*(xb**2))+a13*((xa**3)*xb+xa*(xb**3))+a22*(xa**2)*(xb**2),xa,xb)
-#This is x_{a+2b} expaneded as a series xa+_Fx_b+_Fxb truncated to degree 4
+#This is x_{a+2b} expaneded as a series xa+_Fx_b+_Fxb, correct up to degree 4
 x2ab = poly(xaa+xb+a11*xaa*xb+a12*((xaa**2)*xb+xaa*(xb**2))+a13*((xaa**3)*xb+xaa*(xb**3))+a22*(xaa**2)*(xb**2),xa,xb)
 #This is sa(xb), sb(xa), sasb(xa), sbsa(xb) expanded as a  polynomial of xa and xb up to degree 4
 sbxa = poly(xab,xa,xb)
